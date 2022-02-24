@@ -1,0 +1,199 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  background-image: url(./images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+/* Title and author of poem */
+.titleAuthorContainer {
+  animation: neon 0.08s ease-in-out infinite alternate;
+  display: inline-block;
+  font-size: 130%;
+  border-bottom: 2px groove black;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+b {
+  font-size: 150%;
+}
+
+i {
+  font-weight: bold;
+}
+
+/* poem text */
+.poemTextContainer {
+  height: 35vh;
+  margin: 5vh 34vw;
+  overflow: auto;
+}
+
+@keyframes neon {
+  /*glow effect*/
+  from {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.92),
+      0 0 30px rgba(202, 228, 225, 0.34), 0 0 10px rgba(252, 144, 237, 0.52),
+      0 0 20px rgba(206, 115, 248, 0.92), 0 0 36px rgba(243, 131, 247, 0.78),
+      0 0 58px rgba(250, 94, 250, 0.92);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98),
+      0 0 30px rgba(202, 228, 225, 0.42), 0 0 10px rgba(252, 144, 237, 0.52),
+      0 0 20px rgba(206, 115, 248, 0.92), 0 0 36px rgba(243, 131, 247, 0.78),
+      0 0 58px rgba(250, 94, 250, 0.92);
+  }
+}
+
+@keyframes navGlow {
+  /*glow effect*/
+  from {
+    text-shadow: 0 0 6px rgba(109, 218, 205, 0.92),
+      0 0 30px rgba(111, 238, 255, 0.34), 0 0 10px rgba(110, 255, 243, 0.52),
+      0 0 20px rgba(137, 231, 235, 0.92), 0 0 36px rgba(161, 228, 236, 0.78),
+      0 0 58px rgba(187, 232, 238, 0.92);
+  }
+  to {
+    text-shadow: 0 0 12px rgba(109, 218, 205, 0.92),
+      0 0 40px rgba(111, 238, 255, 0.34), 0 0 20px rgba(110, 255, 243, 0.52),
+      0 0 30px rgba(137, 231, 235, 0.92), 0 0 46px rgba(161, 228, 236, 0.78),
+      0 0 68px rgba(187, 232, 238, 0.92);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 25px;
+  border: 5px solid #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: #b0b0b0;
+}
+
+/* form add poem button */
+.addButton {
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 25px;
+  border: 3px ridge greenyellow;
+}
+
+.addButton:hover {
+  background-image: linear-gradient(to bottom right, #71b2f3, #f7f7f7);
+  color: gold;
+  font-size: 105%;
+  font-weight: bold;
+}
+
+/* number of votes */
+.voteNumberContainer {
+  display: inline-block;
+  color: magenta;
+  margin-top: 10px;
+  font-size: 120%;
+  font-weight: bold;
+  padding: 5px;
+}
+
+/* vote button */
+.voteButton {
+  border-radius: 25px;
+  border: 5px ridge greenyellow;
+}
+
+.voteButton:hover {
+  animation: navGlow 0.08s ease-in-out infinite alternate;
+  font-weight: bold;
+}
+
+/* navigation links */
+.links {
+  width: max-content;
+  margin: auto;
+  color: black;
+  display: inline-block;
+  font-size: 180%;
+  font-weight: bold;
+  justify-content: space-between;
+  padding: 2%;
+  text-decoration: none;
+}
+
+.links:hover {
+  animation: navGlow 0.08s ease-in-out infinite alternate;
+}
+
+h1 {
+  color: black;
+}
+
+/* link references */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  animation: neon 0.08s ease-in-out infinite alternate;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+h4 {
+  font-style: italic;
+  padding: 20px;
+}
+
+/* poem preview links */
+.poemHeaderLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  margin: auto;
+}
+
+form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+  font-size: 110%;
+  padding: 10px;
+}
+
+input,
+textarea {
+  border-radius: 10px;
+  border: 2px slategray solid;
+}
+
+textarea {
+  height: 10vh;
+}
+
+p {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 130%;
+}

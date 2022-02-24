@@ -1,0 +1,39 @@
+{
+    "poems":[
+        {
+            "id": 0,
+            "title": "Fire and Ice",
+            "author": "Robert Frost",
+            "text": "Some say the world will end in fire,  \nSome say in ice.  \nFrom what I’ve tasted of desire  \nI hold with those who favor fire.  \nBut if it had to perish twice,  \nI think I know enough of hate  \nTo know that for destruction ice  \nIs also great,  \nAnd would suffice.",
+            "votes": 38
+        },
+        {
+            "id": 1,
+            "title": "The New Colossus",
+            "author": "Emma Lazarus",
+            "text": "Not like the brazen giant of Greek fame,  \nWith conquering limbs astride from land to land;  \nHere at our sea-washed, sunset gates shall stand  \nA mighty woman with a torch, whose flame  \nIs the imprisoned lightning, and her name  \nMother of Exiles. From her beacon-hand  \nGlows world-wide welcome; her mild eyes command  \nThe air-bridged harbor that twin cities frame.  \n“Keep, ancient lands, your storied pomp!” cries she  \nWith silent lips. “Give me your tired, your poor,  \nYour huddled masses yearning to breathe free,  \nThe wretched refuse of your teeming shore.  \nSend these, the homeless, tempest-tost to me,  \nI lift my lamp beside the golden door!”",
+            "votes": 52
+        },
+        {
+            "id": 2,
+            "title": "The Weary Blues",
+            "author": "Langston Hughes",
+            "text": "Droning a drowsy syncopated tune,  \nRocking back and forth to a mellow croon,  \nI heard a Negro play.  \nDown on Lenox Avenue the other night  \nBy the pale dull pallor of an old gas light  \nHe did a lazy sway. . . .  \nHe did a lazy sway. . . .  \nTo the tune o’ those Weary Blues.  \nWith his ebony hands on each ivory key  \nHe made that poor piano moan with melody.  \nO Blues!  \nSwaying to and fro on his rickety stool  \nHe played that sad raggy tune like a musical fool.  \nSweet Blues!  \nComing from a black man’s soul.  \nO Blues!  \nIn a deep song voice with a melancholy tone  \nI heard that Negro sing, that old piano moan?  \n“Ain’t got nobody in all this world,  \nAin’t got nobody but ma self.  \nI’s gwine to quit ma frownin’  \nAnd put ma troubles on the shelf.”  \n  \n  Thump, thump, thump, went his foot on the floor.  \nHe played a few chords then he sang some more?  \n“I got the Weary Blues  \nAnd I can’t be satisfied.  \nGot the Weary Blues  \nAnd can’t be satisfied?  \nI ain’t happy no mo’  \nAnd I wish that I had died.”  \nAnd far into the night he crooned that tune.  \nThe stars went out and so did the moon.  \nThe singer stopped playing and went to bed  \nWhile the Weary Blues echoed through his head.  \nHe slept like a rock or a man that’s dead.",
+            "votes": 8
+        },
+        {
+            "id": 3,
+            "title": "I Didn’t Go To Church Today",
+            "author": "Ogden Nash",
+            "text": "I didn’t go to church today,  \nI trust the Lord to understand.  \nThe surf was swirling blue and white,  \nThe children swirling on the sand.  \nHe knows, He knows how brief my stay,  \nHow brief this spell of summer weather,  \nHe knows when I am said and done  \nWe’ll have plenty of time together",
+            "votes": 88
+        },
+        {
+            "id": 4,
+            "title": "Sonnet 29",
+            "author": "William Shakespeare",
+            "text": "When, in disgrace with fortune and men’s eyes,  \nI all alone beweep my outcast state,  \nAnd trouble deaf heaven with my bootless cries,  \nAnd look upon myself and curse my fate,  \nWishing me like to one more rich in hope,  \nFeatured like him, like him with friends possessed,  \nDesiring this man’s art and that man’s scope  \nWith what I most enjoy contented least;  \nYet in these thoughts myself almost despising,  \nHaply I think on thee, and then my state,  \n(Like to the lark at break of day arising  \nFrom sullen earth) sings hymns at heaven’s gate;  \nFor thy sweet love remembered such wealth brings  \nThat then I scorn to change my state with kings.",
+            "votes": 26
+        }
+    ]
+}
